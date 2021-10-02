@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rush 2048</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scores">
+    <div class="score-container best-score">
+        best:
+        <div class="score">
+            <div id="bestScore">0</div>
+        </div>
+    </div>
+    <div class="score-container">
+        score:
+        <div class="score">
+            <div id="score">0</div>
+            <div class="add" id="add"></div>
+        </div>
+    </div>
+</div>
+    <a href="javascript:location.reload(true)" id="game">New Game</a>
+
+    <div class="Games">
+        <!-- le 2048 sera inséré ici -->
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="Base2048.js"></script>
+    <script type="text/javascript">
+        $(function()
+        {
+            $('.Games').game2048(); // appel de la fonction 'game2048' du pluggin appliquée à la div de class 'Games'
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+table {
+    margin: auto;
+    border-spacing: 10px;
+    border: solid 5px darkgrey;
+
+}
+
+td {
+    width: 150px;
+    height: 150px;
+    border: solid 2px darkgrey;
+    background-color: #00d0ff;
+    opacity: 0.85;
+}
+
+
+
+.nbr {
+
+    margin-right: 650px;
+
+}
+.score-tittle{
+
+    color: #ffc4c4;
+
+}
+.score-container{
+
+    color: #6aceab;
+    font-size: 20px;
+}
+a {
+    font-max-size: 200px;
+    color: #6aceab;
+    font-size: 30px;
+    font-family: "URW Gothic", monospace;
+
+}
+
+
+
+body{
+
+    background-image:url(../../space.jpg);
+
+}
+
+.Games {
+
+    font-family: aakar, cursive;
+    font-size: 90px;
+    color: #185b0a;
+    align-content: center;
+    margin-top: -100px;
+}
+
+#game{
+    margin-right: 100px;
+}
